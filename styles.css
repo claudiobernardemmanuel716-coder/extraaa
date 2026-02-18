@@ -24,7 +24,7 @@ header{
 	left: 0;
 	width: 100%;
 	padding: 1rem 9%;
-	background-color: midnightblue; *transparent*
+	background-color: #550000; *transparent*
 	filter: drop-shadow(10px);
 	display: flex;
 	justify-content: space-between;
@@ -93,5 +93,6 @@ nav a.active{
 	margin-top: 16px;
 	color:#fff;
 }
+
 
 
