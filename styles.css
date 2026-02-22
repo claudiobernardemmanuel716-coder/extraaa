@@ -90,12 +90,12 @@ nav a.active{
 	border-radius: 0.5rem;
 	border-bottom: 0.5rem solid #b74b4b;
 }
-
+*/
 section{
 	min-height: 100vh;
 	padding: 5rem 9% 5rem;
 }
-
+/*
 .home{
 	display: flex;
 	justify-content: center;
@@ -211,6 +211,7 @@ span{
 	color:#fff;
 }
 -->
+
 
 
 
