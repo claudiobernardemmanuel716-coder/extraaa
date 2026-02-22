@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	}
+html{
+	font-size: 62.5%;
+}
+body{
+	width: 100%;
+	height: 100vh%
+	overflow-x: hidden;
+	background-color: black;
+	color: white;
+}
+header{
+	margin-top: 20px;
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 1rem 9%;
+	background-color: #550000; *transparent*
+	filter: drop-shadow(10px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+.logo{
+	font-size: 3rem;
+	color: #b74b4b;
+	font-weight: 800;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.logo:hover{
+	transform: scale(1.1); 
+}
+nav a{
+	font-size: 1.8rem;
+	color: white;
+	margin-left: 4rem;
+	font-weight: 500;
+	transition: 0.3s ease;
+	border-bottom: 3px solid transparent;
+}
+nav a:hover,
+nav a.active{
+	color: #b74b4b;
+	border-bottom: 3px solid #b74b4b;
+}
+
+span{
+	color: #b74b4b;
+}
+.home-content h3{
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	
+}
+.home-img{
+	border-radius: 50%;
+}
+.home-img img{
+	position: relative;
+	width: 32vw;
+	border-radius: 50%;
+	box-shadow: 0 0 25px solid #b74b4b;
+	cursor: pointer;
+	transition: 0.2s linear;
+}
+.home-img img:hover{
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+
+---
+<div class="class-container">
+		<div class="card">
+			<img src="moon1.jpg">
+			<div class="card-content">
+				<h3>Card 1</h3>
+				<p>lorem chuchu</p>
+				<a href="" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="class-container">
+		<div class="card">
+			<img src="moon2.jpg">
+			<div class="card-content">
+				<h3>Card 2</h3>
+				<p>lorem chuchu</p>
+				<a href="" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="class-container">
+		<div class="card">
+			<img src="moon3.jpg">
+			<div class="card-content">
+				<h3>Card 3</h3>
+				<p>lorem chuchu</p>
+				<a href="" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
+---
+
+/*
+.class-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 100px
+}
+.card{
+	width: 325px;
+	background-color: #f0f0f0;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	margin: 20px;
+}
+.card img{
+	width:100%;
+	height: auto;
+}
+.card-content{
+	padding:16px;
+}
+.card-content h3{
+	font-size: 28px;
+	margin-bottom: 8px;
+}
+.card-content p{
+	color:#666;
+	font-size: 15px;
+	line-height: 1.3;
+}
+.card-content .btn{
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: #333;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-top: 16px;
+	color:#fff;
+}
+*/
