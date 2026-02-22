@@ -114,5 +114,35 @@ span{
 
 
 
+<div class="class-container">
+		<div class="card">
+			<img src="moon1.jpg">
+			<div class="card-content">
+				<h3>Card 1</h3>
+				<p>lorem chuchu</p>
+				<a href="" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="class-container">
+		<div class="card">
+			<img src="moon2.jpg">
+			<div class="card-content">
+				<h3>Card 2</h3>
+				<p>lorem chuchu</p>
+				<a href="" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
+	<div class="class-container">
+		<div class="card">
+			<img src="moon3.jpg">
+			<div class="card-content">
+				<h3>Card 3</h3>
+				<p>lorem chuchu</p>
+				<a href="" class="btn">Read More</a>
+			</div>
+		</div>
+	</div>
 
 
