@@ -27,7 +27,7 @@ header{
 	left: 0;
 	width: 100%;
 	padding: 1rem 9%;
-	background-color: #550000; *transparent*
+	background-color: #550000;
 	filter: drop-shadow(10px);
 	display: flex;
 	justify-content: space-between;
@@ -46,7 +46,7 @@ header{
 .logo:hover{
 	transform: scale(1.1); 
 }
-
+/* DISABLED
 nav a{
 	font-size: 1.8rem;
 	color: white;
@@ -95,7 +95,7 @@ section{
 	min-height: 100vh;
 	padding: 5rem 9% 5rem;
 }
-
+*/
 .home{
 	display: flex;
 	justify-content: center;
@@ -211,5 +211,6 @@ span{
 	color:#fff;
 }
 -->
+
 
 
