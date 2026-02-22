@@ -96,6 +96,12 @@ nav a.active{
 span{
 	color: #b74b4b;
 }
+.home-content h3{
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	
+}
 .home-img{
 	border-radius: 50%;
 }
@@ -144,5 +150,6 @@ span{
 			</div>
 		</div>
 	</div>
+
 
 
