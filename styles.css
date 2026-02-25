@@ -79,9 +79,12 @@ span{
 	font-size: 1.8rem;
 	font-weight: 500;
 }
+section{
+	display:flex;
+	justify-content: row;
+}
 
-
----
+/* --DONT TOJCJ
 <div class="class-container">
 		<div class="card">
 			<img src="moon1.jpg">
