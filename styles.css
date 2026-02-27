@@ -87,6 +87,7 @@ section{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	position: relative;
 }
 /* --DONT TOJCJ
 <div class="class-container">
