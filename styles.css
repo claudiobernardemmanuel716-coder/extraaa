@@ -81,7 +81,7 @@ span{
 }
 section{
 	display:flex;
-	justify-content: row;
+	justify-content: column-reverse;
 }
 .h-content{
 	display: flex;
