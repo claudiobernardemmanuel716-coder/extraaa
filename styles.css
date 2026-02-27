@@ -83,7 +83,11 @@ section{
 	display:flex;
 	justify-content: row;
 }
-
+.h-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
 /* --DONT TOJCJ
 <div class="class-container">
 		<div class="card">
