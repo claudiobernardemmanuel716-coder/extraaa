@@ -68,7 +68,7 @@ span{
 	border-radius: 50%;
 }
 .home-img img{
-	position: relative;
+	/*position: relative;*/
 	width: 32vw;
 	border-radius: 50%;
 	box-shadow: 0 0 25px solid #b74b4b;
@@ -81,13 +81,13 @@ span{
 }
 section{
 	display:flex;
-	justify-content: column-reverse;
+	flex-direction: row;
+	justify-content: flex-start;
+	
 }
 .h-content{
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: flex-end;
-	position: relative;
+	/*display: flex;*/
+	
 }
 /* --DONT TOJCJ
 <div class="class-container">
