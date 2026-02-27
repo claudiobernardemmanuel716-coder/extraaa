@@ -83,9 +83,9 @@ section{
 	display:flex;
 	justify-content: row;
 }
-.h-content h1, h3, p{
+.h-content{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-end;
 }
 /* --DONT TOJCJ
