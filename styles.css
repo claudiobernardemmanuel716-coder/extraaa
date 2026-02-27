@@ -83,7 +83,7 @@ section{
 	display:flex;
 	justify-content: row;
 }
-.h-content{
+.h-content h1, h3, p{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
